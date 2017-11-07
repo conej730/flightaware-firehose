@@ -1,0 +1,24 @@
+{
+  "name": "flightaware-firehose",
+  "version": "1.0.0",
+  "description": "TLS socket reader for FlightAware firehose endpoint",
+  "scripts": {
+    "start": "node bin/start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "lodash.isempty": "^4.4.0",
+    "lodash.isnull": "^3.0.0",
+    "lodash.isstring": "^4.0.1",
+    "lodash.merge": "^4.6.0",
+    "lodash.omitby": "^4.6.0",
+    "moment": "^2.19.1",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
