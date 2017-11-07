@@ -1,7 +1,7 @@
 FlightAware Firehose
 ====================
 
-A consumer of FlightAware's firehose data utilizing Node and its TLS socket
+An example consumer of FlightAware's firehose data utilizing Node and its TLS socket
 toolset.
 
 ## Start-Up Instructions
