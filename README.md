@@ -11,7 +11,7 @@ toolset.
 
 When developing and on start the following exception might be thrown.
 ```
-error: [GoodMop][TLS Data] Error connecting : Error: Maximum simultaneous connection limit for account exceeded.
+error: [Firehose][TLS Data] Error connecting : Error: Maximum simultaneous connection limit for account exceeded.
 ```
 In this case, edit the 'project.config.js' file and locate the 'development.firehose.hostname' value.
 Remove '-test' from the value which turns the URI into the production URI.
